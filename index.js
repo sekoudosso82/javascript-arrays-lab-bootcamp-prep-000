@@ -31,9 +31,9 @@ function appendKitten(name)
   return result
 }
 
-function appendKitten(name)
+function prependKitten(name)
 {
-  var result = [...kittens, name]
+  var result = [name, ...kittens]
   return result
 }
 

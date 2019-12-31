@@ -31,6 +31,12 @@ function appendKitten(name)
   return result
 }
 
+function appendKitten(name)
+{
+  var result = [...kittens, name]
+  return result
+}
+
 
 
 

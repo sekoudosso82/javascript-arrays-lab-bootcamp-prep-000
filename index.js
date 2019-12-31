@@ -43,6 +43,12 @@ function removeLastKitten()
   return result
 }
 
+function removeLastKitten()
+{
+  var result = kittens.slice(1)
+  return result
+}
+
 
 
 
